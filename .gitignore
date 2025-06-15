@@ -1,0 +1,25 @@
+# 仮想環境（例：venv）
+venv/
+ENV/
+env/
+.venv/
+
+# Pythonキャッシュファイル
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS関連
+.DS_Store
+
+# VSCode設定
+.vscode/
+
+# パーミッション/一時ファイル系
+*.log
+*.sqlite3
+*.db
+*.swp
+
+# 環境変数や秘密鍵を含む設定（例：.env）
+.env

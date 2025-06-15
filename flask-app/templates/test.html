@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Hello from about.html</h1>
+    <p>これは自作のHTMLページです🎨</p>
+    <h1>hello</h1>
+    <p>world!</p>
+    <p>Welcome to This Repo!</p>
+    <p>Good bye</p>
+  
+    <h1>JavaScript動くかな？</h1>
+    <button onclick="sayHello()">クリックしてね！</button>
+
+    <h1>helloでるかな？</h1>
+    <button onclick="getHello()">テスト</button>
+
+    <h1>SQL実行</h1>
+    <button onclick="getPosts()">SQL</button>
+
+    <div id="test"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
